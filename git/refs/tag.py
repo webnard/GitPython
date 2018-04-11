@@ -5,9 +5,9 @@ __all__ = ["TagReference", "Tag"]
 
 class TagReference(Reference):
 
-    """Class representing a lightweight tag reference which either points to a commit
-    ,a tag object or any other object. In the latter case additional information,
-    like the signature or the tag-creator, is available.
+    """Class representing a lightweight tag reference which either points to a
+    commit, a tag object or any other object. In the latter case additional
+    information, like the signature or the tag-creator, is available.
 
     This tag object will always point to a commit object, but may carry additional
     information in a tag object::
